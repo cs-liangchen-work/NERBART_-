@@ -12,3 +12,7 @@ github：https://github.com/yhcc/BARTNER
   each entity is represented as [si1, ei1, ..., sij, eij, ti]
 
   也就是说ti i表示实体的个数，然后，它前面的s e 分别表示i这个实体的开始位置额结束位置，因为有实体是被其他词分开的，所以需要有多个。   （也就是期望模型输出的格式）
+  
+  
+  
+实现复杂的指针，修改decoder和encoder在这里：https://github.com/yhcc/BARTNER/blob/main/model/bart.py
